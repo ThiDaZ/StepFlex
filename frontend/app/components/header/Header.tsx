@@ -68,7 +68,7 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-wishlist">
-                <Link href={`/wishlist`} className="nav-icon-item">
+                <Link href={`/my-account-wishlist`} className="nav-icon-item">
                   <i className="icon icon-heart" />
                   <span className="count-box bg-yellow-9 text_black">
                     {/* <WishlistLength /> */}
