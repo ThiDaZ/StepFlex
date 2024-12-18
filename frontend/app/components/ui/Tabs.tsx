@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function Tabs() {
+
+export default function Tabs({details}:{details:string}) {
   return (
     <section className="flat-spacing-10">
       <div className="container">
@@ -11,11 +12,7 @@ export default function Tabs() {
                 <div className="lg_fs_18 fw-6 line py_15">Description</div>
                 <div className="py_20 lg_py_30">
                   <p className="mb_30">
-                    Button-up shirt sleeves and a relaxed silhouette. It’s
-                    tailored with drapey, crinkle-texture fabric that’s made
-                    from LENZING™ ECOVERO™ Viscose — responsibly sourced
-                    wood-based fibres produced through a process that reduces
-                    impact on forests, biodiversity and water supply.
+                    {details}
                   </p>
                   <div className="tf-product-des-demo">
                     <div className="right">

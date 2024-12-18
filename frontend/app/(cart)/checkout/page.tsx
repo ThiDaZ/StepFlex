@@ -2,6 +2,10 @@ import Checkout from "@/app/components/cart/checkout";
 import Footer from "@/app/components/footer/Footer";
 import Header from "@/app/components/header/Header";
 
+export const metadata = {
+    title: "Step Flex",
+};
+
 export default function checkoutPage() {
   return (
     <>

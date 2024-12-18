@@ -78,18 +78,18 @@ export default function Footer({ bgColor = "" }) {
                   <ul>
                     <li>
                       <p>
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        New York, NY 10001
+                        Address: 1234 Fashion Street, Colombo 07, <br />
+                        Sri Lanka
                       </p>
                     </li>
                     <li>
                       <p>
-                        Email: <a href="#">info@fashionshop.com</a>
+                        Email: <a href="#">info@stepflex.com</a>
                       </p>
                     </li>
                     <li>
                       <p>
-                        Phone: <a href="#">(212) 555-1234</a>
+                        Phone: <a href="#">(011) 555-1234</a>
                       </p>
                     </li>
                   </ul>
@@ -250,7 +250,7 @@ export default function Footer({ bgColor = "" }) {
               <div className="col-12">
                 <div className="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
                   <div className="footer-menu_item">
-                    © {new Date().getFullYear()} Ecomus Store. All Rights
+                    © {new Date().getFullYear()} Step Flex. All Rights
                     Reserved
                   </div>
                   <div className="tf-payment">

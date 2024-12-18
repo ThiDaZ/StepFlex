@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "./Nav";
 import Image from "next/image";
 import Link from "next/link";
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 // import CartLength from "../ui/CartLength";
 // import WishlistLength from "../common/WishlistLength";
 export default function Header() {
@@ -51,7 +53,7 @@ export default function Header() {
             <ul className="nav-icon d-flex justify-content-end align-items-center gap-20">
               <li className="nav-search">
                 <a
-                  href="#canvasSearch"
+                  href="/shop"
                   data-bs-toggle="offcanvas"
                   aria-controls="offcanvasLeft"
                   className="nav-icon-item"
@@ -67,24 +69,24 @@ export default function Header() {
                   <i className="icon icon-account" />
                 </a>
               </li>
-              <li className="nav-wishlist">
-                <Link href={`/my-account-wishlist`} className="nav-icon-item">
-                  <i className="icon icon-heart" />
-                  <span className="count-box bg-yellow-9 text_black">
-                    {/* <WishlistLength /> */}
-                  </span>
-                </Link>
-              </li>
+              {/*<li className="nav-wishlist">*/}
+              {/*  <Link href={`/my-account-wishlist`} className="nav-icon-item">*/}
+              {/*    <i className="icon icon-heart" />*/}
+              {/*    <span className="count-box bg-yellow-9 text_black">*/}
+              {/*      /!* <WishlistLength /> *!/*/}
+              {/*    </span>*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <li className="nav-cart">
                 <a
-                  href="#shoppingCart"
+                  href="/cart"
                   data-bs-toggle="modal"
                   className="nav-icon-item"
                 >
                   <i className="icon icon-bag" />
-                  <span className="count-box bg-yellow-9 text_black">
-                    {/* <CartLength /> */}
-                  </span>
+                  {/*<span className="count-box bg-yellow-9 text_black">*/}
+                  {/*  /!* <CartLength /> *!/*/}
+                  {/*</span>*/}
                 </a>
               </li>
             </ul>

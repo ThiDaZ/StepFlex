@@ -41,7 +41,7 @@ export default function BannerCollection() {
               Something we’ll continue doing wherever we go.
             </p>
             <Link
-              href={`/shop-collection-list`}
+              href={`/shop`}
               className="tf-btn btn-line collection-other-link fw-6"
             >
               <span>SHOP COLLECTION</span>

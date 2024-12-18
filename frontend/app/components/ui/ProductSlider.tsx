@@ -4,7 +4,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import { products } from "@/data/products";
 import ProductCard from "../ProductCard/ProductCard";
 
-export default function ProductSlider() {
+export default function ProductSlider({params}:{params:number}) {
   return (
     <section className="flat-spacing-4 pt_0">
       <div className="container">

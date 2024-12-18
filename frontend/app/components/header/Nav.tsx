@@ -6,13 +6,13 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
     <>
       {" "}
       <li className="menu-item">
-        <a href="#" className={`item-link ${Linkfs} ${textColor}`}>
+        <a href="/" className={`item-link ${Linkfs} ${textColor}`}>
           Home
           {isArrow ? <i className="icon icon-arrow-down" /> : ""}
         </a>
       </li>
       <li className="menu-item">
-        <a href="#" className={`item-link ${Linkfs} ${textColor}`}>
+        <a href="/shop" className={`item-link ${Linkfs} ${textColor}`}>
           Shop
           {isArrow ? <i className="icon icon-arrow-down" /> : ""}
         </a>

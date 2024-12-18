@@ -40,7 +40,7 @@ export default function Categories() {
                     <div className="collection-item hover-img style-2">
                       <div className="collection-inner">
                         <Link
-                          href={`/shop-collection-sub`}
+                          href={`/shop`}
                           className="collection-image img-style radius-10"
                         >
                           <Image
