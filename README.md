@@ -48,13 +48,13 @@ StepFlex is a full-stack e-commerce web application designed for buying and sell
 - **Language**: Java
 - **Server**: GlassFish Application Server
 - **ORM**: Hibernate
-- **Database**: MySQL 8.4.0
+- **Database**: MySQL 8.x
 - **Architecture**: RESTful API with Servlets
 - **Payment Gateway**: PayHere Integration
 - **Build Tool**: Apache Ant (NetBeans project)
 
 ### Database
-- **RDBMS**: MySQL 8.4.0
+- **RDBMS**: MySQL 8.x
 - **Schema**: stepflex
 - **Tables**: Users, Products, Brands, Categories, Sizes, Cart, Orders, Addresses, etc.
 
