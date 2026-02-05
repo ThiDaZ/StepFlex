@@ -1,8 +1,8 @@
-# StepFlex - E-Commerce Shoe Store 👟
+# StepFlex - E-Commerce Shoe Store
 
 StepFlex is a full-stack e-commerce web application designed for buying and selling shoes online. The platform features a modern Next.js frontend with a robust Java backend, offering a seamless shopping experience with user authentication, product management, shopping cart, and integrated payment processing.
 
-## 🚀 Features
+## Features
 
 ### User Features
 - **User Authentication** - Sign up, sign in, email verification, and session management
@@ -27,7 +27,7 @@ StepFlex is a full-stack e-commerce web application designed for buying and sell
 - **Hot Toast Notifications** - Real-time feedback using react-hot-toast
 - **SASS Styling** - Organized and maintainable styling with SASS
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Framework**: Next.js 15.0.3
@@ -58,7 +58,7 @@ StepFlex is a full-stack e-commerce web application designed for buying and sell
 - **Schema**: stepflex
 - **Tables**: Users, Products, Brands, Categories, Sizes, Cart, Orders, Addresses, etc.
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -73,7 +73,7 @@ Before you begin, ensure you have the following installed:
 - Node.js 20.x or higher
 - npm or yarn package manager
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -164,7 +164,7 @@ npm run build
 npm start
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 StepFlex/
@@ -200,7 +200,7 @@ StepFlex/
 └── README.md                  # This file
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 The backend provides RESTful API endpoints for:
 
@@ -240,7 +240,7 @@ The backend provides RESTful API endpoints for:
 - `GET /LoadCheckOut` - Load checkout data
 - `POST /VerifyPayments` - Verify payment status
 
-## 🎨 UI Components
+## UI Components
 
 The frontend includes several reusable components:
 
@@ -253,7 +253,7 @@ The frontend includes several reusable components:
 - **Cart Component** - Shopping cart interface
 - **Checkout Flow** - Multi-step checkout process
 
-## 🔧 Configuration
+## Configuration
 
 ### Frontend Configuration
 
@@ -269,7 +269,7 @@ Edit `hibernate.cfg.xml` for database configuration:
 - Username and password
 - Entity mappings
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -277,7 +277,7 @@ Edit `hibernate.cfg.xml` for database configuration:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 Development Guidelines
+## Development Guidelines
 
 - Follow Java naming conventions for backend code
 - Use TypeScript for all frontend code
@@ -286,7 +286,7 @@ Edit `hibernate.cfg.xml` for database configuration:
 - Test your changes before committing
 - Keep commits atomic and well-described
 
-## 🔒 Security Notes
+## Security Notes
 
 - Never commit sensitive credentials (database passwords, API keys) to version control
 - Update the default database credentials in `hibernate.cfg.xml`
@@ -295,15 +295,15 @@ Edit `hibernate.cfg.xml` for database configuration:
 - Use HTTPS in production
 - Regularly update dependencies to patch security vulnerabilities
 
-## 📄 License
+## License
 
 This project is part of a learning/academic project. Please check with the repository owner for license details.
 
-## 👥 Authors
+## Authors
 
 - **ThiDaZ** - [GitHub Profile](https://github.com/ThiDaZ)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Next.js team for the amazing framework
 - Bootstrap for the UI components
@@ -311,7 +311,7 @@ This project is part of a learning/academic project. Please check with the repos
 - PayHere for payment gateway integration
 - All contributors and open-source libraries used in this project
 
-## 📞 Support
+## Support
 
 For support, questions, or feedback:
 - Open an issue in the GitHub repository
@@ -319,4 +319,4 @@ For support, questions, or feedback:
 
 ---
 
-**Built with ❤️ using Next.js and Java**
+**Built with love using Next.js and Java**
